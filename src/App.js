@@ -15,10 +15,10 @@ function App() {
     <>
       <Router>
         <Switch>
-          <Route exact path="/SmootScrollPage">
+          <Route exact path="/">
             <Home toggle={toggle} isOpen={isOpen}/>
           </Route>
-          <Route exact path="/SmootScrollPage/signin" component={SigninPage} />
+          <Route exact path="/signin" component={SigninPage} />
         </Switch>
       </Router>
     </>
