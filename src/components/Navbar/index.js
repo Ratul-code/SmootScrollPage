@@ -71,8 +71,8 @@ function Navbar(props) {
                 to="discover"
                 smooth={true}
                 duration={500}
-                spy={true}
                 exact="true"
+                spy={true}
                 offset={-80}
               >
                 Discover
