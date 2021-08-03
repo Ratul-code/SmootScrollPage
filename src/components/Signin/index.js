@@ -15,7 +15,7 @@ import {
 const Sigin = () => {
   return (
     <SigninContainer>
-      <Siginh1 to="/">dolla</Siginh1>
+      <Siginh1 to="/SmootScrollPage/">dolla</Siginh1>
       <SigninContentWrap>
         <Signinp>Signin to your account</Signinp>
         <InputContainer>
