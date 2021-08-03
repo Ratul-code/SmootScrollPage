@@ -34,7 +34,7 @@ function Navbar(props) {
     <>
       <Nav NavScroll={NavScroll}>
         <NavbarContainer>
-          <NavLogo to="/" onClick={toggleHome}>
+          <NavLogo to="/SmootScrollPage" onClick={toggleHome}>
             dolla
           </NavLogo>
 
