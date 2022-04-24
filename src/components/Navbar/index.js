@@ -34,7 +34,7 @@ function Navbar(props) {
     <>
       <Nav NavScroll={NavScroll}>
         <NavbarContainer>
-          <NavLogo to="/SmootScrollPage" onClick={toggleHome}>
+          <NavLogo to="/" onClick={toggleHome}>
             dolla
           </NavLogo>
 
@@ -93,7 +93,7 @@ function Navbar(props) {
           </NavMenu>
 
           <NavBtn>
-            <NavBtnLink to="/SmootScrollPage/signin">Sign In</NavBtnLink>
+            <NavBtnLink to="/signin">Sign In</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
